@@ -78,6 +78,7 @@ from tensorflow.keras.utils import to_categorical
   -Başarı Kriteri: Doğruluk (accuracy)
 
 📈 Sonuçların Görselleştirilmesi
+
 Modelin başarısı, doğruluk ve kayıp grafikleriyle görselleştirilmiştir.
 
 
