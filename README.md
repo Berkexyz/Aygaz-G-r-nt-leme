@@ -40,26 +40,41 @@ from tensorflow.keras.utils import to_categorical
 ```
 
 📊 Veri Seti Hazırlığı
+  
   1.Veri Seçimi: Her hayvan sınıfından 650 adet görsel.
+  
   2.Veri Yapılandırması: Eğitim (%80) ve doğrulama (%20) olarak bölme.
+  
   3.Veri Artırma: Görselleri manipüle ederek çeşitlilik sağlama.
+  
   4.Etiketleme: Görselleri sınıflarına göre etiketleme.
 
 
 🧠 Model Yapısı
+  
   1.Katmanlar:
+    
     -Conv2D: Görüntüden özellik çıkarımı
+    
     -MaxPooling2D: Boyut azaltma
+    
     -Flatten: Verileri düzleştirme
+    
     -Dense: Tam bağlı katman
+  
   2.Aktivasyon Fonksiyonları: relu ve softmax
+  
   3.Optimizasyon: Adam
+  
   4.Kayıp Fonksiyonu: categorical_crossentropy
 
 
 🚀 Model Eğitimi ve Performansı
+  
   -Batch Boyutu: 32
+  
   -Epoch Sayısı: Belirlenmiş eğitim sürecine göre.
+  
   -Başarı Kriteri: Doğruluk (accuracy)
 
 📈 Sonuçların Görselleştirilmesi
