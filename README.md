@@ -37,6 +37,7 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout, BatchNormalization
 from tensorflow.keras.utils import to_categorical
+```
 
 📊 Veri Seti Hazırlığı
   1.Veri Seçimi: Her hayvan sınıfından 650 adet görsel.
