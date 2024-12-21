@@ -81,7 +81,8 @@ from tensorflow.keras.utils import to_categorical
 
 Modelin başarısı, doğruluk ve kayıp grafikleriyle görselleştirilmiştir.
 
-
+🚀Kaggle Proje Linki:
+https://www.kaggle.com/code/berkeee/aygaz-g-r-nt-leme-bootcamp
 
 
 
